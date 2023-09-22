@@ -58,6 +58,7 @@ export function HomeScreen() {
               mah={'800px'}
             >
               <XStack w={'100%'} jc={'space-between'}>
+                <Button />
                 <SearchComp />
               </XStack>
             </YStack>
