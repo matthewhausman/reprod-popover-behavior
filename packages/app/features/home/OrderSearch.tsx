@@ -4,8 +4,8 @@ import { Search } from '@tamagui/lucide-icons'
 export default function SearchComp() {
   return (
     <XStack>
-      <Popover placement="bottom">
-        <Popover.Trigger>
+      <Popover placement="right">
+        <Popover.Trigger asChild>
           <XStack>
             <Button p={'$2.5'} theme={'blue'} icon={<Search size={20} />} />
           </XStack>
